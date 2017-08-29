@@ -1,0 +1,80 @@
+Started GET "/service-worker.js" for 127.0.0.1 at 2017-08-29 16:05:42 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-08-29 16:05:42 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/nawaz/.rvm/gems/ruby-2.4.0/gems/railties-5.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/nawaz/.rvm/gems/ruby-2.4.0/gems/railties-5.1.3/lib/rails/templates/rails/welcome/index.html.erb (2.5ms)
+Completed 200 OK in 367ms (Views: 4.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-29 16:06:34 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/nawaz/.rvm/gems/ruby-2.4.0/gems/railties-5.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/nawaz/.rvm/gems/ruby-2.4.0/gems/railties-5.1.3/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 6ms (Views: 3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-29 16:08:07 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/nawaz/.rvm/gems/ruby-2.4.0/gems/railties-5.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/nawaz/.rvm/gems/ruby-2.4.0/gems/railties-5.1.3/lib/rails/templates/rails/welcome/index.html.erb (3.3ms)
+Completed 200 OK in 197ms (Views: 8.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-29 16:08:55 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/nawaz/.rvm/gems/ruby-2.4.0/gems/railties-5.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/nawaz/.rvm/gems/ruby-2.4.0/gems/railties-5.1.3/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 6ms (Views: 4.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-29 16:09:40 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/nawaz/.rvm/gems/ruby-2.4.0/gems/railties-5.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/nawaz/.rvm/gems/ruby-2.4.0/gems/railties-5.1.3/lib/rails/templates/rails/welcome/index.html.erb (2.3ms)
+Completed 200 OK in 6ms (Views: 4.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-29 16:19:43 -0700
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 5ms (Views: 4.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-29 16:30:03 -0700
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 174ms (Views: 3.3ms)
+
+
